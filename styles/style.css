@@ -1,1 +1,154 @@
 
+
+/* Common CSS */
+
+/* font-family: "Inter", sans-serif; */
+
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.btn-primary{
+    font-size: 16px;
+    color: white;
+    padding: 14px 20px;
+    background-color: #FF136F;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+
+/* Custom CSS */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.search-parent{
+    position: relative;
+}
+
+.search-parent i{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #BABABA;
+}
+
+.search-parent input{
+    width: 500px;
+    background-color: #F1F1F1;
+    padding: 12px;
+    border: none;
+    border-radius: 66px;
+}
+
+.nav-items{
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+}
+
+.nav-items a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #707070;
+}
+
+/* Banner Styes */
+
+.banner{
+    background-color: #FEEAE9;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.banner-left{
+    max-width: 580px;
+}
+
+.banner-left h2{
+    font-size: 56px;
+    font-weight: bold;
+    color: #1F1F1F;
+    margin: 8px 0;
+}
+
+.banner-left p{
+    width: 450px;
+    font-size: 16px;
+    color: #4E4E4E;
+    line-height: 26px;
+
+}
+
+.banner-left span{
+    display: block;
+    font-size: 41px;
+    font-weight: 600;
+    color: #FF136F;
+    margin-bottom: 15px;
+}
+
+.banner img{
+    width: 350px;
+}
+
+/* Categories Style */
+
+.categories-card-container{
+    display: flex;
+    gap: 24px;
+}
+
+.categories-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    flex: 1;
+    font-size: 25px;
+}
+
+.categories-card h2{
+    color: white;
+    font-weight: 400;
+    line-height: 0;
+}
+
+.categories-card img{
+    width: 60px;
+}
+
+.container-card-one{
+    background-image: linear-gradient(#FF9C35, #FFD019);
+}
+
+.container-card-two{
+    background-image: linear-gradient(#FF589B, #FF136F);
+}
+
+.container-card-three{
+    background-image: linear-gradient(#4289FF, #3F07F8);
+}
+

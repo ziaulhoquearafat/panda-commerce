@@ -4,14 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Commerce</title>
-    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!-- Custom Css -->
+         <link rel="stylesheet" href="./styles/style.css">
+
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="container">
+            <figure>
+                <img src="images/logo.png" alt="">
+            </figure>
 
+            <div class="search-parent">
+                <input type="search" name="" id="" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <ul class="nav-items">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
+
+    <section class="banner container">
+
+        <!-- banner left -->
+         <div class="banner-left">
+         <h2>Mi LED TV 4A PRO 32</h2>
+         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+         <span>$1289</span>
+         <button class="btn-primary">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+         </div>
+
+         <!-- banner right -->
+          <figure>
+            <img src="./images/banner-images/tv.png" alt="">
+          </figure>
+
+    </section>
+
+    <!-- Category Section -->
+     <section class="categories container">
+        <h2>Categories</h2>
+        <div class="categories-card-container">
+            <div class="categories-card container-card-one">
+                <h2>Watch</h2>                
+                <img src="./images/categories/watch.png" alt="">
+            </div>
+            <div class="categories-card container-card-two">
+                <h2>Bag</h2>                
+                <img src="./images/categories/bag.png" alt="">
+            </div>
+            <div class="categories-card container-card-three">
+                <h2>Shoes</h2>                
+                <img src="./images/categories/shoes.png" alt="">
+            </div>
+        </div>
+     </section>
 
     <main>
 
