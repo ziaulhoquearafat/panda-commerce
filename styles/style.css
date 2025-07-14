@@ -179,6 +179,10 @@ nav{
     text-decoration: none;
 }
 
+.shoes-section{
+    padding-bottom: 98px;
+}
+
 /* Shoes */
 
 .shoe-card-container{
@@ -228,4 +232,50 @@ nav{
 }
 
 
+/* Contact us */
+
+.contact-us{
+    background-color: #FFF2F1;
+    text-align: center;
+    padding: 146px 265px;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+
+.contact-us h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #1f1f1f;
+    line-height: 0;
+}
+
+.contact-us p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #707070;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input{
+    border: none;
+    border-radius: 5px;
+    padding: 20px 220px 20px 20px;
+    font-size: 16px;
+    
+}
+
+
+
+form .btn-primary{
+    padding: 12px 48px;
+    border-radius: 0 10px 10px 0;
+    font-size: 24px;
+}
 
